@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/E-Wallet/static/css/main.c465a763.css",
+    "main.js": "/E-Wallet/static/js/main.ed66fd8b.js",
+    "static/js/787.e1a44ee7.chunk.js": "/E-Wallet/static/js/787.e1a44ee7.chunk.js",
+    "index.html": "/E-Wallet/index.html",
+    "main.c465a763.css.map": "/E-Wallet/static/css/main.c465a763.css.map",
+    "main.ed66fd8b.js.map": "/E-Wallet/static/js/main.ed66fd8b.js.map",
+    "787.e1a44ee7.chunk.js.map": "/E-Wallet/static/js/787.e1a44ee7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c465a763.css",
+    "static/js/main.ed66fd8b.js"
+  ]
+}
