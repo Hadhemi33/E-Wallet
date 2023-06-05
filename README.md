@@ -1,9 +1,21 @@
 # Getting Started with Create React App
 
-This project is an E-wallet application developed using React.js and blockchain technology. 
-It provides users with a secure and convenient way to manage their digital assets and perform transactions.
+ A React-based E-wallet with Blockchain Integration
+
+This project is an E-wallet application developed using React.js and blockchain technology. It provides users with a secure and convenient way to manage their digital assets and perform transactions.
 
 Key Features:
+- Secure Wallet: Utilizes blockchain technology to ensure the security and integrity of transactions.
+- Multi-currency Support: Allows users to store and transact in various cryptocurrencies.
+- Transaction History: Keeps track of all user transactions for easy reference and auditing.
+- User-Friendly Interface: Provides a sleek and intuitive user interface for seamless navigation and usage.
+- Real-time Updates: Utilizes web sockets or APIs to provide real-time updates on cryptocurrency prices and account balances.
+
+Technologies Used: React.js, JavaScript, HTML, CSS, Blockchain
+
+Explore the power of blockchain technology and build your digital wealth with this E-wallet application. Start managing your digital assets securely and efficiently today!
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
