@@ -1,7 +1,7 @@
 import { ethers } from 'ethers';
 import React, { useCallback, useEffect, useState } from 'react';
 import { Account } from '../models/Account.ts';
-import { goerli, sepolia } from '../models/Chain.ts';
+import {  sepolia } from '../models/Chain.ts';
 import { Transaction } from '../models/Transaction.ts';
 import { TransactionService } from '../services/TransactionService.ts';
 import { shortenAddress } from '../utils/AccountUtils.ts';

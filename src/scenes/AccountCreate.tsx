@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
-// import { generateKeys } from '../utils/AccountUtils.ts';
+
 import { generateAccount } from '../utils/AccountUtils.ts';
 import { Account } from '../utils/AccountUtils.ts';
 import AccountDetails from './AccountDetails.tsx';
