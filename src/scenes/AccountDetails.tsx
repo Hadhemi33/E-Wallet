@@ -1,7 +1,7 @@
-import { Account } from '../models/Account'
 import React, {useEffect, useState} from 'react';
 import { sendToken } from '../utils/TransactionUtils.ts';
-import { goerli } from '../models/Chain.ts';
+import { Account } from '../models/Account'
+
 import { sepolia } from '../models/Chain.ts';
 import AccountTransactions from './AccountTransactions.tsx';
 import { ethers } from 'ethers';
@@ -28,6 +28,8 @@ const AccountDetails:React.FC<AccountDetailsProps>=({account}) => {
           const provider = new ethers.providers.JsonRpcProvider(sepolia.rpcUrl);
           let accountBalance = await provider.getBalance(account.address);
           setBalance((String(toFixedIfNecessary(ethers.utils.formatEther(accountBalance)))));
+          // let accountPrivateKey = await provider.getBalance(account.privateKey);
+          // setBalance((String(toFixedIfNecessary(ethers.utils.formatEther(accountBalance)))));
       }
       fetchData();
   }, [account.address])
@@ -91,7 +93,9 @@ const AccountDetails:React.FC<AccountDetailsProps>=({account}) => {
               </a><br/>
               Balance: {balance} ETH
               <br></br>
-              {privateKey}
+              Private Key:
+              <br></br>
+              {account.privateKey}
           </h4>
   
           <div className="form-group">

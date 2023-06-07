@@ -1,5 +1,5 @@
 import { ethers, Wallet } from "ethers";
-import { CHAINS_CONFIG, goerli, sepolia } from "../models/Chain.ts";
+import { CHAINS_CONFIG, sepolia } from "../models/Chain.ts";
 
 export async function sendToken(
   amount: number,

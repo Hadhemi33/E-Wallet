@@ -1,5 +1,5 @@
 import axios from "axios";
-import { goerli, sepolia } from "../models/Chain.ts";
+import {sepolia } from "../models/Chain.ts";
 
 export class TransactionService {
   static API_URL = "https://deep-index.moralis.io/api/v2";
