@@ -1,7 +1,7 @@
-You can visit : 
-bit.ly/DemiWallet
+You can visit : ### `bit.ly/DemiWallet`
  or 
-pxl.to/DWallet
+ ### `pxl.to/DWallet`
+
 
  A React-based E-wallet with Blockchain Integration
 
