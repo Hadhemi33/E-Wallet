@@ -1,5 +1,5 @@
 You can visit : 
-### `bit.ly/DemiWallet`
+### `bit.ly/Hadhemi_DemiWallet`
  or 
 ### `pxl.to/DWallet`
 
